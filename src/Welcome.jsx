@@ -17,7 +17,7 @@ const WelcomeMessage = () => {
         placeholder="Enter your name"
       />
       <button onClick={handleButtonClick}>Show Welcome Message</button>
-      {showMessage && <p>Hi "{name}!!!" Welcome to Docker Image</p>}
+      {showMessage && <p>Hi "{name}!!!" Welcome to Docker Image LabInternal-II</p>}
     </div>
   );
 };
