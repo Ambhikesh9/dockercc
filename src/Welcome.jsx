@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const WelcomeMessage = () => {
-  const [name, setName] = useState('Shanker');
+  const [name, setName] = useState('YourName');
   const [showMessage, setShowMessage] = useState(false);
 
   const handleButtonClick = () => {
